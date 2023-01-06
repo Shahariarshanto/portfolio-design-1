@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-.default-width {
+.default-display-width {
   max-width: 1200px;
 }
 
@@ -76,4 +76,26 @@
 }
 .fa-check {
   color: #16d887;
+}
+
+/* My Plans Section */
+.my-plans-section {
+  margin: 100px auto;
+}
+.my-plans-section > h2 {
+  font-size: 40px;
+  margin: 40px 0;
+  text-align: center;
+}
+.plans-cards {
+  display: flex;
+  justify-content: space-around;
+}
+.plan-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan-card h2 {
+  margin: 10px 0;
 }
