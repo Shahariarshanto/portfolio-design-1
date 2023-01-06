@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.default-width {
+  max-width: 1200px;
+}
+
+/* Header Section */
 .top-header {
   background-image: url("../images/banner/banner3.png");
   height: 100vh;
@@ -39,4 +44,36 @@
   border-radius: 8px;
   color: #0064b0;
   font-weight: 700;
+}
+
+/* previous year resolution section */
+.previous-resolution-sec {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: auto;
+  height: 900px;
+}
+.prev-img-section {
+  /* width: 100%; */
+}
+.prev-text-section {
+  padding-left: 80px;
+}
+.prev-text-section h2 {
+  font-size: 40px;
+}
+.prev-text-section > p {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #444343;
+  line-height: 1.5;
+  max-width: 500px;
+  margin: 15px 0;
+}
+.previous-sec-checklist p {
+  margin: 10px 0;
+}
+.fa-check {
+  color: #16d887;
 }
